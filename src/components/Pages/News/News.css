@@ -1,0 +1,85 @@
+.news-list {
+    margin-top: 30px;
+}
+
+.news-list__item {
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.6);
+    padding: 10px;
+    max-width: 30%;
+    width: 100%;
+
+}
+.news-list__item:not(:last-child), .form-add__input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.news-list__title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.news-list__desc {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.news-list__date {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+    color: rgba(0,0,0,0.6);
+}
+
+.news-search__input, .form-add__input {
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 3px 0 6px 5px;
+    font: 400 12px 'Open Sans', sans-serif;
+}
+
+.form-add {
+    margin-top: 30px;
+    width: 30%;
+}
+
+.form-add__title {
+    margin-bottom: 15px;
+}
+
+.form-add__input {
+    width: 100%;
+}
+
+.form-add__input_desc {
+    padding-top: 10px;
+    resize: none;
+    height: 70px;
+}
+
+.form-add__input_btn {
+    width: 40%;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+.form-add__input_btn:hover {
+    background-color: gray;
+    color: #fff;
+    -webkit-transform: all .5s ease;
+       -moz-transform: all .5s ease;
+        -ms-transform: all .5s ease;
+         -o-transform: all .5s ease;
+            transform: all .5s ease;
+}
